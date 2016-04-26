@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A5E41D1F1CCFF22B006A7FCF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E41D1E1CCFF22B006A7FCF /* AppDelegate.swift */; };
+		A5E41D211CCFF22B006A7FCF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E41D201CCFF22B006A7FCF /* ViewController.swift */; };
+		A5E41D241CCFF22B006A7FCF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5E41D221CCFF22B006A7FCF /* Main.storyboard */; };
+		A5E41D271CCFF22B006A7FCF /* ColorSwitch.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A5E41D251CCFF22B006A7FCF /* ColorSwitch.xcdatamodeld */; };
+		A5E41D291CCFF22B006A7FCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5E41D281CCFF22B006A7FCF /* Assets.xcassets */; };
+		A5E41D2C1CCFF22B006A7FCF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5E41D2A1CCFF22B006A7FCF /* LaunchScreen.storyboard */; };
+		A5E41D371CCFF22B006A7FCF /* ColorSwitchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E41D361CCFF22B006A7FCF /* ColorSwitchTests.swift */; };
+		A5E41D421CCFF22B006A7FCF /* ColorSwitchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E41D411CCFF22B006A7FCF /* ColorSwitchUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A5E41D331CCFF22B006A7FCF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5E41D131CCFF22A006A7FCF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5E41D1A1CCFF22A006A7FCF;
+			remoteInfo = ColorSwitch;
+		};
+		A5E41D3E1CCFF22B006A7FCF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5E41D131CCFF22A006A7FCF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5E41D1A1CCFF22A006A7FCF;
+			remoteInfo = ColorSwitch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A5E41D1B1CCFF22B006A7FCF /* ColorSwitch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorSwitch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5E41D1E1CCFF22B006A7FCF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A5E41D201CCFF22B006A7FCF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A5E41D231CCFF22B006A7FCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A5E41D261CCFF22B006A7FCF /* ColorSwitch.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ColorSwitch.xcdatamodel; sourceTree = "<group>"; };
+		A5E41D281CCFF22B006A7FCF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A5E41D2B1CCFF22B006A7FCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A5E41D2D1CCFF22B006A7FCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5E41D321CCFF22B006A7FCF /* ColorSwitchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorSwitchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5E41D361CCFF22B006A7FCF /* ColorSwitchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSwitchTests.swift; sourceTree = "<group>"; };
+		A5E41D381CCFF22B006A7FCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5E41D3D1CCFF22B006A7FCF /* ColorSwitchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorSwitchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5E41D411CCFF22B006A7FCF /* ColorSwitchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSwitchUITests.swift; sourceTree = "<group>"; };
+		A5E41D431CCFF22B006A7FCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5E41D181CCFF22A006A7FCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5E41D2F1CCFF22B006A7FCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5E41D3A1CCFF22B006A7FCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A5E41D121CCFF22A006A7FCF = {
+			isa = PBXGroup;
+			children = (
+				A5E41D1D1CCFF22B006A7FCF /* ColorSwitch */,
+				A5E41D351CCFF22B006A7FCF /* ColorSwitchTests */,
+				A5E41D401CCFF22B006A7FCF /* ColorSwitchUITests */,
+				A5E41D1C1CCFF22B006A7FCF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A5E41D1C1CCFF22B006A7FCF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5E41D1B1CCFF22B006A7FCF /* ColorSwitch.app */,
+				A5E41D321CCFF22B006A7FCF /* ColorSwitchTests.xctest */,
+				A5E41D3D1CCFF22B006A7FCF /* ColorSwitchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5E41D1D1CCFF22B006A7FCF /* ColorSwitch */ = {
+			isa = PBXGroup;
+			children = (
+				A5E41D1E1CCFF22B006A7FCF /* AppDelegate.swift */,
+				A5E41D201CCFF22B006A7FCF /* ViewController.swift */,
+				A5E41D221CCFF22B006A7FCF /* Main.storyboard */,
+				A5E41D281CCFF22B006A7FCF /* Assets.xcassets */,
+				A5E41D2A1CCFF22B006A7FCF /* LaunchScreen.storyboard */,
+				A5E41D2D1CCFF22B006A7FCF /* Info.plist */,
+				A5E41D251CCFF22B006A7FCF /* ColorSwitch.xcdatamodeld */,
+			);
+			path = ColorSwitch;
+			sourceTree = "<group>";
+		};
+		A5E41D351CCFF22B006A7FCF /* ColorSwitchTests */ = {
+			isa = PBXGroup;
+			children = (
+				A5E41D361CCFF22B006A7FCF /* ColorSwitchTests.swift */,
+				A5E41D381CCFF22B006A7FCF /* Info.plist */,
+			);
+			path = ColorSwitchTests;
+			sourceTree = "<group>";
+		};
+		A5E41D401CCFF22B006A7FCF /* ColorSwitchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A5E41D411CCFF22B006A7FCF /* ColorSwitchUITests.swift */,
+				A5E41D431CCFF22B006A7FCF /* Info.plist */,
+			);
+			path = ColorSwitchUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5E41D1A1CCFF22A006A7FCF /* ColorSwitch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5E41D461CCFF22B006A7FCF /* Build configuration list for PBXNativeTarget "ColorSwitch" */;
+			buildPhases = (
+				A5E41D171CCFF22A006A7FCF /* Sources */,
+				A5E41D181CCFF22A006A7FCF /* Frameworks */,
+				A5E41D191CCFF22A006A7FCF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ColorSwitch;
+			productName = ColorSwitch;
+			productReference = A5E41D1B1CCFF22B006A7FCF /* ColorSwitch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A5E41D311CCFF22B006A7FCF /* ColorSwitchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5E41D491CCFF22B006A7FCF /* Build configuration list for PBXNativeTarget "ColorSwitchTests" */;
+			buildPhases = (
+				A5E41D2E1CCFF22B006A7FCF /* Sources */,
+				A5E41D2F1CCFF22B006A7FCF /* Frameworks */,
+				A5E41D301CCFF22B006A7FCF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5E41D341CCFF22B006A7FCF /* PBXTargetDependency */,
+			);
+			name = ColorSwitchTests;
+			productName = ColorSwitchTests;
+			productReference = A5E41D321CCFF22B006A7FCF /* ColorSwitchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A5E41D3C1CCFF22B006A7FCF /* ColorSwitchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5E41D4C1CCFF22B006A7FCF /* Build configuration list for PBXNativeTarget "ColorSwitchUITests" */;
+			buildPhases = (
+				A5E41D391CCFF22B006A7FCF /* Sources */,
+				A5E41D3A1CCFF22B006A7FCF /* Frameworks */,
+				A5E41D3B1CCFF22B006A7FCF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5E41D3F1CCFF22B006A7FCF /* PBXTargetDependency */,
+			);
+			name = ColorSwitchUITests;
+			productName = ColorSwitchUITests;
+			productReference = A5E41D3D1CCFF22B006A7FCF /* ColorSwitchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5E41D131CCFF22A006A7FCF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Richa;
+				TargetAttributes = {
+					A5E41D1A1CCFF22A006A7FCF = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					A5E41D311CCFF22B006A7FCF = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = A5E41D1A1CCFF22A006A7FCF;
+					};
+					A5E41D3C1CCFF22B006A7FCF = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = A5E41D1A1CCFF22A006A7FCF;
+					};
+				};
+			};
+			buildConfigurationList = A5E41D161CCFF22A006A7FCF /* Build configuration list for PBXProject "ColorSwitch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A5E41D121CCFF22A006A7FCF;
+			productRefGroup = A5E41D1C1CCFF22B006A7FCF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5E41D1A1CCFF22A006A7FCF /* ColorSwitch */,
+				A5E41D311CCFF22B006A7FCF /* ColorSwitchTests */,
+				A5E41D3C1CCFF22B006A7FCF /* ColorSwitchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5E41D191CCFF22A006A7FCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5E41D2C1CCFF22B006A7FCF /* LaunchScreen.storyboard in Resources */,
+				A5E41D291CCFF22B006A7FCF /* Assets.xcassets in Resources */,
+				A5E41D241CCFF22B006A7FCF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5E41D301CCFF22B006A7FCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5E41D3B1CCFF22B006A7FCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5E41D171CCFF22A006A7FCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5E41D271CCFF22B006A7FCF /* ColorSwitch.xcdatamodeld in Sources */,
+				A5E41D211CCFF22B006A7FCF /* ViewController.swift in Sources */,
+				A5E41D1F1CCFF22B006A7FCF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5E41D2E1CCFF22B006A7FCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5E41D371CCFF22B006A7FCF /* ColorSwitchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5E41D391CCFF22B006A7FCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5E41D421CCFF22B006A7FCF /* ColorSwitchUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A5E41D341CCFF22B006A7FCF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5E41D1A1CCFF22A006A7FCF /* ColorSwitch */;
+			targetProxy = A5E41D331CCFF22B006A7FCF /* PBXContainerItemProxy */;
+		};
+		A5E41D3F1CCFF22B006A7FCF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5E41D1A1CCFF22A006A7FCF /* ColorSwitch */;
+			targetProxy = A5E41D3E1CCFF22B006A7FCF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A5E41D221CCFF22B006A7FCF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5E41D231CCFF22B006A7FCF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A5E41D2A1CCFF22B006A7FCF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5E41D2B1CCFF22B006A7FCF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A5E41D441CCFF22B006A7FCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A5E41D451CCFF22B006A7FCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5E41D471CCFF22B006A7FCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ColorSwitch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Richa.ColorSwitch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A5E41D481CCFF22B006A7FCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ColorSwitch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Richa.ColorSwitch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A5E41D4A1CCFF22B006A7FCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ColorSwitchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Richa.ColorSwitchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ColorSwitch.app/ColorSwitch";
+			};
+			name = Debug;
+		};
+		A5E41D4B1CCFF22B006A7FCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ColorSwitchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Richa.ColorSwitchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ColorSwitch.app/ColorSwitch";
+			};
+			name = Release;
+		};
+		A5E41D4D1CCFF22B006A7FCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ColorSwitchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Richa.ColorSwitchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ColorSwitch;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A5E41D4E1CCFF22B006A7FCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ColorSwitchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Richa.ColorSwitchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ColorSwitch;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5E41D161CCFF22A006A7FCF /* Build configuration list for PBXProject "ColorSwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5E41D441CCFF22B006A7FCF /* Debug */,
+				A5E41D451CCFF22B006A7FCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5E41D461CCFF22B006A7FCF /* Build configuration list for PBXNativeTarget "ColorSwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5E41D471CCFF22B006A7FCF /* Debug */,
+				A5E41D481CCFF22B006A7FCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A5E41D491CCFF22B006A7FCF /* Build configuration list for PBXNativeTarget "ColorSwitchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5E41D4A1CCFF22B006A7FCF /* Debug */,
+				A5E41D4B1CCFF22B006A7FCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A5E41D4C1CCFF22B006A7FCF /* Build configuration list for PBXNativeTarget "ColorSwitchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5E41D4D1CCFF22B006A7FCF /* Debug */,
+				A5E41D4E1CCFF22B006A7FCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A5E41D251CCFF22B006A7FCF /* ColorSwitch.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A5E41D261CCFF22B006A7FCF /* ColorSwitch.xcdatamodel */,
+			);
+			currentVersion = A5E41D261CCFF22B006A7FCF /* ColorSwitch.xcdatamodel */;
+			path = ColorSwitch.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A5E41D131CCFF22A006A7FCF /* Project object */;
+}
